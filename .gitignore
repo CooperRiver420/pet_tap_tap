@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep assets but not system files
+assets/
+!assets/.gitkeep
+
+# Documentation (exclude per user request)
+# prd/          # 暂不排除，看大哥是否需要
+# docs/
+# 需求交接会议纪要*.md
